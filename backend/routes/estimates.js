@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const estimateResalePrice = require("../utils/estimator");
 
 router.get('/', (req, res) => {
     res.status(200).json({msg: "Get all estimates"});
@@ -26,7 +27,7 @@ router.post('/new', (req, res) => {
         return res.status(400).json({ error: 'Please enter a positive number for original price', missingFields })
     }
 
-    estimatedPrice = 0;
+    estimatedPrice = estimateResalePrice(brand, category, originalPrice);
     return res.status(200).json({estimatedPrice});
 });
 
