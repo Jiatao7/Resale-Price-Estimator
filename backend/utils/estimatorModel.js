@@ -1,55 +1,58 @@
 import MLR from "ml-regression-multivariate-linear";
+import fs from 'fs';
 
 //Ordered loosely from fast fashion to luxury brands
 const brandMap = {
-  "H&M": 0,
-  "Zara": 1,
-  "Uniqlo": 2,
-  "Gap": 3,
-  "American Eagle": 4,
-  "Adidas": 5,
-  "Nike": 6,
-  "other": 7,
-  "Banana Republic": 8,
-  "Tommy Hilfiger": 9,
-  "Levi's": 10,
-  "Hermes": 11,
-  "Chanel": 12,
-  "Dior": 13,
-  "Louis Vuitton": 14,
-  "Gucci": 15
+  "H&M": 1,
+  "Zara": 2,
+  "Uniqlo": 3,
+  "Gap": 4,
+  "American Eagle": 5,
+  "Adidas": 6,
+  "Nike": 7,
+  "other": 8,
+  "Banana Republic": 9,
+  "Tommy Hilfiger": 10,
+  "Levi's": 11,
+  "Hermes": 12,
+  "Chanel": 13,
+  "Dior": 14,
+  "Louis Vuitton": 15,
+  "Gucci": 16
 };
 
 //Ordered loosely from top clothing to bottom clothing
 const categoryMap = {
-  "shirts": 0,
-  "sweaters": 1,
-  "jackets": 2,
-  "dresses": 3,
-  "pants": 4,
-  "shoes": 5,
-  "other": 6
+  "shirts": 1,
+  "sweaters": 2,
+  "jackets": 3,
+  "dresses": 4,
+  "pants": 5,
+  "shoes": 6,
+  "other": 7
 };
 
 //Inputs: [brand, category, original price]
-const inputs = [
-    [1, 1, 100], 
-    [1, 1, 100],
-    [1, 1, 100], 
-    [1, 1, 100],
-    [1, 1, 100], 
-    [1, 1, 100]
-];
+const inputs = [];
 
 //Outputs: [estimated price]
-const outputs = [
-  [0],
-  [0],
-  [0],
-  [0],
-  [0],
-  [0]
-];
+const outputs = [];
+
+//Read training data from JSON file
+const filePath = './trainingData.json';
+const jsonData = fs.readFileSync(filePath, 'utf-8');
+const dataArray = JSON.parse(jsonData);
+console.log(dataArray.length);
+
+//Add training data to inputs and outputs
+for(const item of dataArray) {
+  const brandValue = brandMap[item["brand"]] || brandMap["other"];
+  const categoryValue = categoryMap[item["category"]] || categoryMap["other"];
+  const originalPrice = item["original_price"];
+  const resalePrice = item["resale_price"];
+  inputs.push([brandValue, categoryValue, originalPrice]);
+  outputs.push([resalePrice])
+}
 
 //Train model
 const regression = new MLR(inputs, outputs);
@@ -58,7 +61,7 @@ const regression = new MLR(inputs, outputs);
 export default function estimateResalePrice(brand, category, originalPrice) {
   //Maps brand and category to corresponding values
   const brandValue = brandMap[brand] || brandMap["other"];
-  const categoryValue = categoryMap[category] || brandMap["other"];
+  const categoryValue = categoryMap[category] || categoryMap["other"];
   //Predict price
   const estimate = regression.predict([brandValue, categoryValue, originalPrice]);
   return Math.round(estimate * 100) / 100; // Round to 2 decimal places
