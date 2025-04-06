@@ -1,8 +1,10 @@
+import Form from './components/form';
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Hello there!
+          <Form/>
       </header>
     </div>
   );
