@@ -1,0 +1,1273 @@
+[
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 39.51,
+"resale_price": 16.99
+},
+{
+"brand": "H&M",
+"category": "sweaters",
+"original_price": 32.81,
+"resale_price": 20.99
+},
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 51.02,
+"resale_price": 25.99
+},
+{
+"brand": "H&M",
+"category": "sweaters",
+"original_price": 18.97,
+"resale_price": 14.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 124.96,
+"resale_price": 34.99
+},
+{
+"brand": "H&M",
+"category": "jackets",
+"original_price": 39.98,
+"resale_price": 19.99
+},
+{
+"brand": "H&M",
+"category": "shirts",
+"original_price": 9.99,
+"resale_price": 6.99
+},
+{
+"brand": "H&M",
+"category": "shirts",
+"original_price": 12.90,
+"resale_price": 7.99
+},
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 13.99,
+"resale_price": 13.99
+},
+{
+"brand": "H&M",
+"category": "shirts",
+"original_price": 37.50,
+"resale_price": 20.99
+},
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 39.99,
+"resale_price": 21.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 8.98,
+"resale_price": 7.99
+},
+{
+"brand": "H&M",
+"category": "shirts",
+"original_price": 13.48,
+"resale_price": 11.99
+},
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 83.94,
+"resale_price": 14.99
+},
+{
+"brand": "H&M",
+"category": "shirts",
+"original_price": 12.98,
+"resale_price": 9.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 39.68,
+"resale_price": 24.99
+},
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 39.68,
+"resale_price": 24.99
+},
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 39.62,
+"resale_price": 20.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 24.98,
+"resale_price": 10.99
+},
+{
+"brand": "H&M",
+"category": "shirts",
+"original_price": 18.87,
+"resale_price": 9.99
+},
+{
+"brand": "H&M",
+"category": "sweaters",
+"original_price": 12.87,
+"resale_price": 7.99
+},
+{
+"brand": "H&M",
+"category": "shirts",
+"original_price": 43.47,
+"resale_price": 22.99
+},
+{
+"brand": "H&M",
+"category": "sweaters",
+"original_price": 24.98,
+"resale_price": 11.99
+},
+
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 39.56,
+"resale_price": 18.99
+},
+{
+"brand": "H&M",
+"category": "jackets",
+"original_price": 31.61,
+"resale_price": 17.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 39.13,
+"resale_price": 8.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 39.69,
+"resale_price": 22.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 42.94,
+"resale_price": 26.99
+},
+{
+"brand": "H&M",
+"category": "shirts",
+"original_price": 12.98,
+"resale_price": 9.99
+},
+{
+"brand": "H&M",
+"category": "shirts",
+"original_price": 39.56,
+"resale_price": 18.99
+},
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 24.98,
+"resale_price": 12.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 42.94,
+"resale_price": 26.99
+},
+{
+"brand": "H&M",
+"category": "shirts",
+"original_price": 36.16,
+"resale_price": 20.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 31.65,
+"resale_price": 18.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 39.56,
+"resale_price": 18.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 79.98,
+"resale_price": 39.99
+},
+
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 39.56,
+"resale_price": 18.99
+},
+{
+"brand": "H&M",
+"category": "jackets",
+"original_price": 31.61,
+"resale_price": 17.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 39.13,
+"resale_price": 8.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 39.69,
+"resale_price": 22.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 42.94,
+"resale_price": 26.99
+},
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 34.54,
+"resale_price": 18.99
+},
+{
+"brand": "H&M",
+"category": "shirts",
+"original_price": 8.98,
+"resale_price": 7.99
+},
+{
+"brand": "H&M",
+"category": "shirts",
+"original_price": 12.98,
+"resale_price": 9.99
+},
+{
+"brand": "H&M",
+"category": "jackets",
+"original_price": 39.56,
+"resale_price": 18.99
+},
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 24.98,
+"resale_price": 12.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 42.94,
+"resale_price": 26.99
+},
+{
+"brand": "H&M",
+"category": "shirts",
+"original_price": 36.16,
+"resale_price": 20.99
+},
+{
+"brand": "H&M",
+"category": "shirts",
+"original_price": 19.98,
+"resale_price": 9.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 31.65,
+"resale_price": 18.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 39.56,
+"resale_price": 18.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 79.98,
+"resale_price": 39.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 45.98,
+"resale_price": 22.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 50.99,
+"resale_price": 21.99
+},
+{
+"brand": "H&M",
+"category": "jackets",
+"original_price": 39.68,
+"resale_price": 24.99
+},
+{
+"brand": "H&M",
+"category": "tops",
+"original_price": 12.90,
+"resale_price": 7.99
+},
+{
+"brand": "H&M",
+"category": "sweaters",
+"original_price": 20.99,
+"resale_price": 12.99
+},
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 50.00,
+"resale_price": 18.99
+},
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 24.99,
+"resale_price": 15.99
+},
+{
+"brand": "H&M",
+"category": "shirts",
+"original_price": 20.99,
+"resale_price": 12.99
+},
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 24.99,
+"resale_price": 13.99
+},
+{
+"brand": "H&M",
+"category": "blouses",
+"original_price": 34.78,
+"resale_price": 15.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 29.89,
+"resale_price": 16.99
+},
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 39.68,
+"resale_price": 18.99
+},
+{
+"brand": "H&M",
+"category": "tank tops",
+"original_price": 9.99,
+"resale_price": 8.99
+},
+{
+"brand": "H&M",
+"category": "tank tops",
+"original_price": 9.99,
+"resale_price": 7.99
+},
+{
+"brand": "H&M",
+"category": "trenchcoats",
+"original_price": 49.18,
+"resale_price": 26.99
+},
+{
+"brand": "H&M",
+"category": "pants",
+"original_price": 12.99,
+"resale_price": 9.99
+},
+{
+"brand": "H&M",
+"category": "cardigans",
+"original_price": 31.75,
+"resale_price": 19.99
+},
+{
+"brand": "H&M",
+"category": "vests",
+"original_price": 63.42,
+"resale_price": 30.99
+},
+{
+"brand": "H&M",
+"category": "jackets",
+"original_price": 31.98,
+"resale_price": 14.99
+},
+{
+"brand": "H&M",
+"category": "dresses",
+"original_price": 39.68,
+"resale_price": 18.99
+},
+
+{
+  "brand": "Zara",
+  "category": "pants",
+  "original_price": 43.41,
+  "resale_price": 22.99
+},
+{
+  "brand": "Zara",
+  "category": "sweaters",
+  "original_price": 50.00,
+  "resale_price": 25.99
+},
+{
+  "brand": "Zara",
+  "category": "pants",
+  "original_price": 50.00,
+  "resale_price": 25.99
+},
+{
+  "brand": "Zara",
+  "category": "skirts",
+  "original_price": 45.47,
+  "resale_price": 23.99
+},
+{
+  "brand": "Zara",
+  "category": "pants",
+  "original_price": 49.99,
+  "resale_price": 21.99
+},
+{
+  "brand": "Zara",
+  "category": "skirts",
+  "original_price": 45.57,
+  "resale_price": 25.99
+},
+{
+  "brand": "Zara",
+  "category": "pants",
+  "original_price": 50.00,
+  "resale_price": 20.99
+},
+{
+  "brand": "Zara",
+  "category": "pants",
+  "original_price": 42.99,
+  "resale_price": 20.99
+},
+{
+  "brand": "Zara",
+  "category": "sweaters",
+  "original_price": 35.51,
+  "resale_price": 20.99
+},
+{
+  "brand": "Zara",
+  "category": "jackets",
+  "original_price": 92.67,
+  "resale_price": 48.99
+},
+{
+  "brand": "Zara",
+  "category": "vests",
+  "original_price": 56.65,
+  "resale_price": 33.99
+},
+{
+  "brand": "Zara",
+  "category": "skirts",
+  "original_price": 35.28,
+  "resale_price": 19.99
+},
+{
+  "brand": "Zara",
+  "category": "pants",
+  "original_price": 50.00,
+  "resale_price": 29.99
+},
+{
+  "brand": "Zara",
+  "category": "pants",
+  "original_price": 43.41,
+  "resale_price": 22.99
+},
+{
+  "brand": "Zara",
+  "category": "shoes",
+  "original_price": 51.02,
+  "resale_price": 25.99
+},
+{
+  "brand": "Zara",
+  "category": "pants",
+  "original_price": 50.00,
+  "resale_price": 24.99
+},
+{
+  "brand": "Zara",
+  "category": "dresses",
+  "original_price": 49.87,
+  "resale_price": 38.99
+},
+{
+"brand": "Uniqlo",
+"category": "sweaters",
+"original_price": 39.98,
+"resale_price": 17.99
+},
+{
+"brand": "Uniqlo",
+"category": "sweaters",
+"original_price": 39.51,
+"resale_price": 16.99
+},
+{
+"brand": "Uniqlo",
+"category": "shirts",
+"original_price": 24.99,
+"resale_price": 16.99
+},
+{
+"brand": "Uniqlo",
+"category": "jackets",
+"original_price": 52.36,
+"resale_price": 21.99
+},
+{
+"brand": "Uniqlo",
+"category": "dresses",
+"original_price": 37.91,
+"resale_price": 21.99
+},
+{
+"brand": "Uniqlo",
+"category": "jackets",
+"original_price": 74.98,
+"resale_price": 38.99
+},
+{
+"brand": "Uniqlo",
+"category": "sweaters",
+"original_price": 49.98,
+"resale_price": 22.99
+},
+{
+"brand": "Uniqlo",
+"category": "pants",
+"original_price": 49.98,
+"resale_price": 20.99
+},
+{
+"brand": "Uniqlo",
+"category": "pants",
+"original_price": 50.92,
+"resale_price": 26.99
+},
+{
+"brand": "Uniqlo",
+"category": "pants",
+"original_price": 68.27,
+"resale_price": 27.99
+},
+{
+"brand": "Uniqlo",
+"category": "shirts",
+"original_price": 24.99,
+"resale_price": 16.99
+},
+{
+"brand": "Uniqlo",
+"category": "other",
+"original_price": 49.98,
+"resale_price": 23.99
+},
+{
+"brand": "Gap",
+"category": "sweaters",
+"original_price": 69.67,
+"resale_price": 22.99
+},
+{
+"brand": "Gap",
+"category": "other",
+"original_price": 68.72,
+"resale_price": 21.99
+},
+{
+"brand": "Gap",
+"category": "sweaters",
+"original_price": 47.7,
+"resale_price": 20.99
+},
+{
+"brand": "Gap",
+"category": "pants",
+"original_price": 58.59,
+"resale_price": 16.99
+},
+{
+"brand": "Gap",
+"category": "jackets",
+"original_price": 47.6,
+"resale_price": 19.99
+},
+{
+"brand": "Gap",
+"category": "shirts",
+"original_price": 38.44,
+"resale_price": 14.99
+},
+{
+"brand": "Gap Fit",
+"category": "pants",
+"original_price": 59.07,
+"resale_price": 25.99
+},
+{
+"brand": "Gap",
+"category": "pants",
+"original_price": 69.19,
+"resale_price": 17.99
+},
+{
+"brand": "Gap Fit",
+"category": "pants",
+"original_price": 39.51,
+"resale_price": 16.99
+},
+{
+"brand": "Gap",
+"category": "dresses",
+"original_price": 78.76,
+"resale_price": 25.99
+},
+{
+"brand": "Gap",
+"category": "shirts",
+"original_price": 28.55,
+"resale_price": 15.99
+},
+{
+"brand": "Gap",
+"category": "other",
+"original_price": 88.35,
+"resale_price": 37.99
+},
+{
+"brand": "American Eagle",
+"category": "pants",
+"original_price": 59.98,
+"resale_price": 26.99
+},
+{
+"brand": "American Eagle",
+"category": "shirts",
+"original_price": 24.99,
+"resale_price": 16.99
+},
+{
+"brand": "American Eagle",
+"category": "pants",
+"original_price": 59.98,
+"resale_price": 26.99
+},
+{
+"brand": "American Eagle",
+"category": "pants",
+"original_price": 59.98,
+"resale_price": 23.99
+},
+{
+"brand": "American Eagle",
+"category": "pants",
+"original_price": 83.96,
+"resale_price": 20.99
+},
+{
+"brand": "American Eagle",
+"category": "pants",
+"original_price": 59.55,
+"resale_price": 27.99
+},
+{
+"brand": "American Eagle",
+"category": "pants",
+"original_price": 59.5,
+"resale_price": 24.99
+},
+{
+"brand": "American Eagle",
+"category": "shirts",
+"original_price": 24.98,
+"resale_price": 12.99
+},
+{
+"brand": "American Eagle",
+"category": "other",
+"original_price": 79.98,
+"resale_price": 31.99
+},
+{
+"brand": "Aerie",
+"category": "sweaters",
+"original_price": 37.48,
+"resale_price": 17.99
+},
+{
+"brand": "American Eagle",
+"category": "pants",
+"original_price": 59.98,
+"resale_price": 26.99
+},
+{
+"brand": "American Eagle",
+"category": "pants",
+"original_price": 63.61,
+"resale_price": 27.99
+},
+{
+"brand": "American Eagle",
+"category": "shirts",
+"original_price": 37.48,
+"resale_price": 17.99
+},
+{
+"brand": "American Eagle",
+"category": "pants",
+"original_price": 59.98,
+"resale_price": 26.99
+},
+{
+"brand": "Adidas",
+"category": "dresses",
+"original_price": 101.22,
+"resale_price": 81.99
+},
+{
+"brand": "Adidas",
+"category": "jackets",
+"original_price": 100.00,
+"resale_price": 31.99
+},
+{
+"brand": "Adidas",
+"category": "pants",
+"original_price": 49.98,
+"resale_price": 19.99
+},
+{
+"brand": "Adidas",
+"category": "pants",
+"original_price": 74.26,
+"resale_price": 25.99
+},
+{
+"brand": "Adidas",
+"category": "shoes",
+"original_price": 58.67,
+"resale_price": 26.99
+},
+{
+"brand": "Adidas",
+"category": "jackets",
+"original_price": 123.30,
+"resale_price": 36.99
+},
+{
+"brand": "Adidas",
+"category": "other",
+"original_price": 32.74,
+"resale_price": 18.99
+},
+{
+"brand": "Adidas",
+"category": "shirts",
+"original_price": 49.98,
+"resale_price": 21.99
+},
+{
+"brand": "Adidas",
+"category": "shoes",
+"original_price": 216.99,
+"resale_price": 101.99
+},
+{
+"brand": "Adidas",
+"category": "sweaters",
+"original_price": 68.57,
+"resale_price": 23.99
+},
+{
+"brand": "Adidas",
+"category": "sweaters",
+"original_price": 69.20,
+"resale_price": 26.99
+},
+{
+"brand": "Nike",
+"category": "pants",
+"original_price": 47.19,
+"resale_price": 16.99
+},
+{
+"brand": "Nike",
+"category": "pants",
+"original_price": 48.96,
+"resale_price": 23.99
+},
+{
+"brand": "Nike",
+"category": "pants",
+"original_price": 44.71,
+"resale_price": 16.99
+},
+{
+"brand": "Nike",
+"category": "other",
+"original_price": 49.98,
+"resale_price": 21.99
+},
+{
+"brand": "Nike",
+"category": "pants",
+"original_price": 69.98,
+"resale_price": 27.99
+},
+{
+"brand": "Nike",
+"category": "shirts",
+"original_price": 54.37,
+"resale_price": 30.99
+},
+{
+"brand": "Nike",
+"category": "pants",
+"original_price": 68.39,
+"resale_price": 25.99
+},
+{
+"brand": "Nike",
+"category": "pants",
+"original_price": 48.06,
+"resale_price": 24.99
+},
+{
+"brand": "Nike",
+"category": "shirts",
+"original_price": 54.37,
+"resale_price": 30.99
+},
+{
+"brand": "Nike",
+"category": "pants",
+"original_price": 48.89,
+"resale_price": 22.99
+},
+{
+"brand": "Nike",
+"category": "pants",
+"original_price": 48.81,
+"resale_price": 20.99
+},
+{
+"brand": "Nike",
+"category": "sweaters",
+"original_price": 99.97,
+"resale_price": 34.99
+},
+{
+"brand": "Nike",
+"category": "pants",
+"original_price": 68.39,
+"resale_price": 25.99
+},
+{
+"brand": "Nike",
+"category": "pants",
+"original_price": 44.88,
+"resale_price": 21.99
+},
+{
+"brand": "Nike",
+"category": "shirts",
+"original_price": 54.37,
+"resale_price": 30.99
+},
+{
+"brand": "Nike",
+"category": "pants",
+"original_price": 44.71,
+"resale_price": 16.99
+},
+{
+"brand": "Nike",
+"category": "shoes",
+"original_price": 27.26,
+"resale_price": 23.99
+},
+{
+"brand": "Nike",
+"category": "other",
+"original_price": 39.67,
+"resale_price": 24.99
+},
+{
+"brand": "Nike",
+"category": "pants",
+"original_price": 44.71,
+"resale_price": 16.99
+},
+{
+"brand": "Nike",
+"category": "pants",
+"original_price": 44.19,
+"resale_price": 18.99
+},
+{
+"brand": "Nike",
+"category": "shoes",
+"original_price": 119.99,
+"resale_price": 95.99
+},
+{
+"brand": "Nike",
+"category": "shirts",
+"original_price": 49.98,
+"resale_price": 21.99
+},
+{
+"brand": "Banana Republic",
+"category": "dresses",
+"original_price": 246.63,
+"resale_price": 73.99
+},
+{
+"brand": "Banana Republic",
+"category": "dresses",
+"original_price": 177.76,
+"resale_price": 95.99
+},
+{
+"brand": "Banana Republic",
+"category": "pants",
+"original_price": 115.38,
+"resale_price": 29.99
+},
+{
+"brand": "Banana Republic",
+"category": "dresses",
+"original_price": 119.32,
+"resale_price": 36.99
+},
+{
+"brand": "Banana Republic",
+"category": "skirts",
+"original_price": 146.15,
+"resale_price": 37.99
+},
+{
+"brand": "Banana Republic",
+"category": "shirts",
+"original_price": 72.38,
+"resale_price": 20.99
+},
+{
+"brand": "Banana Republic",
+"category": "pants",
+"original_price": 147.57,
+"resale_price": 30.99
+},
+{
+"brand": "Banana Republic",
+"category": "jackets",
+"original_price": 199.96,
+"resale_price": 49.99
+},
+{
+"brand": "Banana Republic",
+"category": "shirts",
+"original_price": 63.86,
+"resale_price": 22.99
+},
+{
+"brand": "Banana Republic",
+"category": "jackets",
+"original_price": 534.58,
+"resale_price": 138.99
+},
+{
+"brand": "Banana Republic",
+"category": "sweaters",
+"original_price": 54.80,
+"resale_price": 16.99
+},
+{
+"brand": "Banana Republic",
+"category": "other",
+"original_price": 263.59,
+"resale_price": 57.99
+},
+{
+"brand": "Banana Republic",
+"category": "pants",
+"original_price": 145.45,
+"resale_price": 31.99
+},
+{
+"brand": "Banana Republic",
+"category": "jackets",
+"original_price": 299.96,
+"resale_price": 71.99
+},
+{
+  "brand": "Tommy Hilfiger",
+  "category": "dresses",
+  "original_price": 199.97,
+  "resale_price": 61.99
+},
+{
+  "brand": "Tommy Hilfiger",
+  "category": "other",
+  "original_price": 78.95,
+  "resale_price": 14.99
+},
+{
+  "brand": "Tommy Hilfiger",
+  "category": "other",
+  "original_price": 78.54,
+  "resale_price": 21.99
+},
+{
+  "brand": "Tommy Hilfiger",
+  "category": "skirts",
+  "original_price": 68.18,
+  "resale_price": 14.99
+},
+{
+  "brand": "Tommy Hilfiger",
+  "category": "other",
+  "original_price": 68.97,
+  "resale_price": 19.99
+},
+{
+  "brand": "Tommy Hilfiger",
+  "category": "shoes",
+  "original_price": 177.78,
+  "resale_price": 47.99
+},
+{
+  "brand": "Tommy Hilfiger",
+  "category": "other",
+  "original_price": 39.98,
+  "resale_price": 17.99
+},
+{
+  "brand": "Tommy Hilfiger",
+  "category": "jackets",
+  "original_price": 207.69,
+  "resale_price": 53.99
+},
+{
+  "brand": "Tommy Hilfiger",
+  "category": "pants",
+  "original_price": 47.19,
+  "resale_price": 16.99
+},
+{
+  "brand": "Tommy Hilfiger",
+  "category": "dresses",
+  "original_price": 91.96,
+  "resale_price": 22.99
+},
+{
+"brand": "other",
+"category": "pants",
+"original_price": 24.98,
+"resale_price": 14.99
+},
+{
+"brand": "other",
+"category": "pants",
+"original_price": 24.98,
+"resale_price": 13.99
+},
+{
+"brand": "other",
+"category": "pants",
+"original_price": 24.99,
+"resale_price": 18.99
+},
+{
+"brand": "other",
+"category": "pants",
+"original_price": 24.99,
+"resale_price": 17.99
+},
+{
+"brand": "Levi's",
+"category": "pants",
+"original_price": 96.94,
+"resale_price": 31.99
+},
+{
+"brand": "other",
+"category": "pants",
+"original_price": 30.53,
+"resale_price": 10.99
+},
+{
+"brand": "Levi's",
+"category": "pants",
+"original_price": 102.54,
+"resale_price": 39.99
+},
+{
+"brand": "Levi's",
+"category": "pants",
+"original_price": 81.55,
+"resale_price": 30.99
+},
+{
+"brand": "Levi's",
+"category": "pants",
+"original_price": 96.74,
+"resale_price": 29.99
+},
+{
+"brand": "Levi's",
+"category": "pants",
+"original_price": 81.55,
+"resale_price": 30.99
+},
+
+{
+"brand": "Hermes",
+"category": "dresses",
+"original_price": 946.64,
+"resale_price": 425.99
+},
+{
+"brand": "Hermes",
+"category": "other",
+"original_price": 578.09,
+"resale_price": 184.99
+},
+{
+"brand": "Hermes",
+"category": "other",
+"original_price": 470.35,
+"resale_price": 253.99
+},
+{
+"brand": "Hermes",
+"category": "other",
+"original_price": 274.99,
+"resale_price": 219.99
+},
+{
+"brand": "Hermes",
+"category": "other",
+"original_price": 439.27,
+"resale_price": 245.99
+},
+{
+"brand": "Hermes",
+"category": "other",
+"original_price": 587.97,
+"resale_price": 393.99
+},
+{
+"brand": "Hermes",
+"category": "other",
+"original_price": 588.66,
+"resale_price": 311.99
+},
+{
+"brand": "Hermes",
+"category": "other",
+"original_price": 547.15,
+"resale_price": 289.99
+},
+{
+"brand": "Hermes",
+"category": "other",
+"original_price": 584.11,
+"resale_price": 367.99
+},
+{
+"brand": "Chanel",
+"category": "shoes",
+"original_price": 1871.64,
+"resale_price": 336.99
+},
+{
+"brand": "Chanel",
+"category": "outerwear",
+"original_price": 3154.37,
+"resale_price": 1797.99
+},
+{
+"brand": "Chanel",
+"category": "shoes",
+"original_price": 1096.86,
+"resale_price": 701.99
+},
+{
+"brand": "Chanel",
+"category": "dresses",
+"original_price": 2273.15,
+"resale_price": 931.99
+},
+{
+"brand": "Dior",
+"category": "shoes",
+"original_price": 778.54,
+"resale_price": 217.99
+},
+{
+"brand": "Dior",
+"category": "shoes",
+"original_price": 787.85,
+"resale_price": 259.99
+},
+{
+  "brand": "Louis Vuitton",
+  "category": "other",
+  "original_price": 3150.00,
+  "resale_price": 2195
+},
+{
+"brand": "Gucci",
+"category": "shoes",
+"original_price": 515.00,
+"resale_price": 1140.00
+}
+]
+
