@@ -24,10 +24,10 @@ router.post('/new', async (req, res) => {
       missingFields.push('original price')
     }
     if (missingFields.length > 0) {
-        return res.status(400).json({ error: 'Please fill in all fields', missingFields })
+        return res.status(400).json({ error: 'Some fields are missing', missingFields })
     }
     if(isNaN(originalPrice) || originalPrice <= 0) {
-        return res.status(400).json({ error: 'Please enter a positive number for original price', missingFields })
+        return res.status(400).json({ error: 'A positive value is needed for original price', missingFields })
     }
 
     const estimatedPrice = estimateResalePrice(brand, category, originalPrice);
