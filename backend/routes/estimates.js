@@ -1,5 +1,5 @@
 import express from 'express';
-import estimateResalePrice from '../utils/estimator.js';
+import estimateResalePrice from '../utils/estimatorModel.js';
 import { getEstimates, createEstimate } from '../utils/database.js';
 
 const router = express.Router();

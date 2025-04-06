@@ -1,5 +1,7 @@
 import MLR from "ml-regression-multivariate-linear";
 import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 //Ordered loosely from fast fashion to luxury brands
 const brandMap = {
@@ -39,7 +41,9 @@ const inputs = [];
 const outputs = [];
 
 //Read training data from JSON file
-const filePath = './trainingData.json';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const filePath =  path.resolve(__dirname, 'trainingData.json');
 const jsonData = fs.readFileSync(filePath, 'utf-8');
 const dataArray = JSON.parse(jsonData);
 console.log(dataArray.length);
