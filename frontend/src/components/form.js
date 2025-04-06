@@ -63,7 +63,7 @@ export default function Form () {
     return (
         <>
         <form className="form" onSubmit={handleSubmit}>
-            <h3>Estimate Resale Price</h3>
+            <h3>Resale Price Estimator</h3>
             <label htmlFor="brand">Brand</label>
             <input id="brand" type="text" autoComplete="on" name="brand" placeholder="Nike" disabled={loading}/>
             {errorFields['brand'] && <div className="error">{errorFields['brand']}</div>}
