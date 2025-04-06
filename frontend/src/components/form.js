@@ -66,22 +66,22 @@ export default function Form () {
             <h3>Resale Price Estimator</h3>
             <label htmlFor="brand">Brand</label>
             <input id="brand" type="text" autoComplete="on" name="brand" placeholder="Nike" disabled={loading}/>
-            {errorFields['brand'] && <div className="error">{errorFields['brand']}</div>}
+            <div className="error">{errorFields['brand']}</div>
             <label htmlFor="category">Category</label>
             <select id="category" name="category" disabled={loading}>
                 <option value="none">Select a Category</option>
-                <option value="shoes">Shoes</option>
-                <option value="jackets">Jackets</option>
-                <option value="sweaters">Sweaters</option>
                 <option value="shirts">Shirts</option>
-                <option value="pants">Pants</option>
+                <option value="sweaters">Sweaters</option>
+                <option value="jackets">Jackets</option>
                 <option value="dresses">Dresses</option>
-                <option value="shirts">Other</option>
+                <option value="pants">Pants</option>
+                <option value="shoes">Shoes</option>
+                <option value="other">Other</option>
             </select> 
-            {errorFields['category'] && <div className="error">{errorFields['category']}</div>}
+            <div className="error">{errorFields['category']}</div>
             <label htmlFor="original-price">Original Price</label>
             <input id="original-price" type="number" autoComplete="on" name="original-price" placeholder="$99.99" disabled={loading}/>
-            {errorFields['originalPrice'] && <div className="error">{errorFields['originalPrice']}</div>}
+            <div className="error">{errorFields['originalPrice']}</div>
             <button className="submit-button" disabled={loading}>
                 {loading ? "Submitting..." : "Submit"}
             </button>
