@@ -7,6 +7,7 @@ export default function Form () {
         category: null,
         originalPrice: null
     })
+    const [estimatedPrice, setEstimatedPrice] = useState(null);
 
     async function handleSubmit(e) {
         e.preventDefault()
@@ -48,6 +49,10 @@ export default function Form () {
             })
             const result = await response.json()
             console.log(result)
+
+            if(response.ok) {
+                setEstimatedPrice(result.estimated_price)
+            }
         } catch(err) {
             console.error(err)
         } finally {
@@ -56,6 +61,7 @@ export default function Form () {
     }
 
     return (
+        <>
         <form className="form" onSubmit={handleSubmit}>
             <h3>Estimate Resale Price</h3>
             <label htmlFor="brand">Brand</label>
@@ -79,6 +85,14 @@ export default function Form () {
             <button className="submit-button" disabled={loading}>
                 {loading ? "Submitting..." : "Submit"}
             </button>
-      </form>
+        </form>
+
+        {estimatedPrice !== null && (
+            <div className="estimated-price">
+                <h4>Estimated Resale Price</h4>
+                <p>${estimatedPrice}</p>
+            </div>
+        )}
+        </>
     )
 }
