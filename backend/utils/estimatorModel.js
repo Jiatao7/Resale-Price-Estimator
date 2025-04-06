@@ -5,22 +5,22 @@ import { fileURLToPath } from 'url';
 
 //Ordered loosely from fast fashion to luxury brands
 const brandMap = {
-  "H&M": 1,
-  "Zara": 2,
-  "Uniqlo": 3,
-  "Gap": 4,
-  "American Eagle": 5,
-  "Adidas": 6,
-  "Nike": 7,
+  "h&m": 1,
+  "zara": 2,
+  "uniqlo": 3,
+  "gap": 4,
+  "american eagle": 5,
+  "adidas": 6,
+  "nike": 7,
   "other": 8,
-  "Banana Republic": 9,
-  "Tommy Hilfiger": 10,
-  "Levi's": 11,
-  "Hermes": 12,
-  "Chanel": 13,
-  "Dior": 14,
-  "Louis Vuitton": 15,
-  "Gucci": 16
+  "banana republic": 9,
+  "tommy hilfiger": 10,
+  "levi's": 11,
+  "hermes": 12,
+  "chanel": 13,
+  "dior": 14,
+  "louis vuitton": 15,
+  "gucci": 16
 };
 
 //Ordered loosely from top clothing to bottom clothing
@@ -46,12 +46,11 @@ const __dirname = path.dirname(__filename);
 const filePath =  path.resolve(__dirname, 'trainingData.json');
 const jsonData = fs.readFileSync(filePath, 'utf-8');
 const dataArray = JSON.parse(jsonData);
-console.log(dataArray.length);
 
 //Add training data to inputs and outputs
 for(const item of dataArray) {
-  const brandValue = brandMap[item["brand"]] || brandMap["other"];
-  const categoryValue = categoryMap[item["category"]] || categoryMap["other"];
+  const brandValue = brandMap[item["brand"].toLowerCase()] || brandMap["other"];
+  const categoryValue = categoryMap[item["category"].toLowerCase()] || categoryMap["other"];
   const originalPrice = item["original_price"];
   const resalePrice = item["resale_price"];
   inputs.push([brandValue, categoryValue, originalPrice]);
@@ -62,11 +61,17 @@ for(const item of dataArray) {
 const regression = new MLR(inputs, outputs);
 
 //Function to estimate resale price
+const MIN_RESALE_PRICE = 5.0;
 export default function estimateResalePrice(brand, category, originalPrice) {
   //Maps brand and category to corresponding values
-  const brandValue = brandMap[brand] || brandMap["other"];
-  const categoryValue = categoryMap[category] || categoryMap["other"];
+  const brandValue = brandMap[brand.trim().toLowerCase()] || brandMap["other"];
+  const categoryValue = categoryMap[category.trim().toLowerCase()] || categoryMap["other"];
   //Predict price
-  const estimate = regression.predict([brandValue, categoryValue, originalPrice]);
+  const [estimate] = regression.predict([brandValue, categoryValue, originalPrice]);
+  console.log(brandValue, categoryValue, originalPrice, estimate)
+  
+  if(estimate < MIN_RESALE_PRICE) {
+    return MIN_RESALE_PRICE;
+  }
   return Math.round(estimate * 100) / 100; // Round to 2 decimal places
 }
