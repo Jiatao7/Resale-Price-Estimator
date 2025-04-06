@@ -24,11 +24,11 @@ export async function getEstimate(id) {
     return rows[0]
 }  
 
-export async function createEstimate(brand, category, original_price) {
+export async function createEstimate(brand, category, original_price, estimated_price) {
     const [result] = await pool.query(`
-        INSERT INTO estimates (brand, category, original_price)
-        VALUES (?, ?, ?)
-    `, [brand, category, original_price])
+        INSERT INTO estimates (brand, category, original_price, estimated_price)
+        VALUES (?, ?, ?, ?)
+    `, [brand, category, original_price, estimated_price])
     const id = result.insertId
     return getEstimate(id)
 }
