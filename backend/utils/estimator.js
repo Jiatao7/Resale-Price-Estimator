@@ -13,11 +13,10 @@ const categoryMultiplier = {
     "default": 0.9,
 };
 
-function estimateResalePrice(brand, category, originalPrice) {
+export default function estimateResalePrice(brand, category, originalPrice) {
     const brandFactor = brandMultiplier[brand.toLowerCase()] || brandMultiplier["default"];
     const categoryFactor = categoryMultiplier[category.toLowerCase()] || categoryMultiplier["default"];
     const estimated = originalPrice * brandFactor * categoryFactor;
     return Math.round(estimated * 100) / 100; // Round to 2 decimal places
 }
 
-module.exports = estimateResalePrice;

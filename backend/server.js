@@ -1,7 +1,8 @@
 //Imports
-const express = require('express');
-const cors = require('cors');
-const estimatesRoutes = require('./routes/estimates.js');
+import express from 'express';
+import cors from 'cors';
+import estimatesRoutes from './routes/estimates.js';
+import { getEstimates, createEstimate } from './utils/database.js';
 
 //Create app
 const app = express();
