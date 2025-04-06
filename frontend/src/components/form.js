@@ -42,7 +42,7 @@ export default function Form () {
         //Fetch
         setLoading(true);
         try {
-            const response = await fetch(`http://localhost:4000/api/estimates/new`, {
+            const response = await fetch(`https://${process.env.REACT_APP_API_URL}/api/estimates/new`, {
                 method: "POST",
                 headers: {"Content-Type": "application/json"},
                 body: JSON.stringify({brand, category, originalPrice})
